@@ -1,0 +1,23 @@
+' Gambas class file
+
+Private nombre As String = "Ángel García Aguilera"
+Private direccion As String = "C/Luna Nº 4"
+Private telefono As String = "694423339"
+
+Public Sub BNombre_Click()
+
+  LResult.Text = nombre
+
+End
+
+Public Sub BDir_Click()
+
+  LResult.Text = direccion
+
+End
+
+Public Sub BTlf_Click()
+
+  LResult.Text = telefono
+
+End
